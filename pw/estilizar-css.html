@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="utf-8"/>
+	<title>Fomulário</title>
+	<link rel="stylesheet" href="/css-estilizar.css">
+</head>
+<body>
+
+
+<div id="tudo">
+
+	<h1>ETEC Rodrigues de Abreu:</h1>
+	<p>Texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto.</p>
+	<h2>Formulário de contato:</h2>
+
+        <form class="mx-xl-5" action="contatoenvia.php" method="post" name="formContato" id="formContato">
+        <br><label for="nome">Nome:</label>
+        <br><input type="text" class="form-control" id="nome" placeholder="Escreva seu nome" name="nome" required>
+        <br><br><label for="email">E-mail:</label>
+        <br><input type="email" class="form-control" id="email" placeholder="Escreva seu e-mail" name="email" required>
+        <br><br><label for="assunto">Assunto:</label>
+        <br><input type="text" class="form-control" id="assunto" placeholder="Escreva o assunto" name="assunto" required>
+        <br><br><label for="mensagem">Mensagem:</label>
+        <br><textarea class="form-control" id="mensagem" name="mensagem" required></textarea>
+        <br><br><input id="buttonContato" type="button" value="Enviar" />
+            <br><br><br>
+        </form>
+
+</div>
+
+
+</body>
+</html>
