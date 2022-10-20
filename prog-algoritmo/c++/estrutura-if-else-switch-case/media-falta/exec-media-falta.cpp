@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-int main() {
+int main(void) {
 	int nota1, nota2, nota3, media1, faltas, nota4, media2;
 	
 	cout << "Qual a nota da primeira prova? ";
@@ -18,12 +18,22 @@ int main() {
 	
 	
 		media1=(nota1+nota2+nota3)/3;
-		cout << "Sua média intermediária é: " << media1;
-			
-			if media1>=7;
-			cout << "Você está: aprovado";
-			
-				if media1 <= 3 & media1 <7;
+		{
+			cout << "Sua média intermediária é: " << media1;
+		}	
+			if (media1>=7);
+			{
+				cout << "Você está: aprovado";
+			}		
+			else if (media1 <= 3 & media1 <7);
+			{
 				cout << "Você está: em recuperação";
-					else cout << "Você está: reprovado";
+			}
+			else (media1 <3);
+			{
+				cout << "Você está: reprovado";
+			} 
 }
+
+
+
