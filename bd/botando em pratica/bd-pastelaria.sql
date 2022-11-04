@@ -40,3 +40,7 @@ CREATE TABLE PRODUTO_1VALOR(
   PRIMARY KEY(QUANT)
 );
 
+INSERT INTO produtos (QUANT,NOME,FORN,DT_ENTR,VALIDADE,DESCR,VALOR,COD) VALUES ("10 "Massa de pastel", "Massa da feira", "01/11/2022", "01/12/2022", "Massa de pastel pré pronta", "R$8", "1100");
+INSERT INTO produtos (QUANT,NOME,FORN,DT_ENTR,VALIDADE,DESCR,VALOR,COD) VALUES ("2", "Mussarela", "Confiança", "01/11/2022", "31/12/2022", "Mussarela sadia", "R$34,90", "001101");
+INSERT INTO produtos (QUANT,NOME,FORN,DT_ENTR,VALIDADE,DESCR,VALOR,COD) VALUES ("4", "Presunto", "Confiança", "01/11/2022", "01/01/2023", "Presunto defumado seara", "R$24,96", "001102");
+
