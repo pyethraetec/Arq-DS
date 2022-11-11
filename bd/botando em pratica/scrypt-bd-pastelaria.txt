@@ -1,0 +1,84 @@
+Produto
+INSERT INTO PRODUTO_1VALOR (QUANT,UNID,NOME,FORN,DT_ENTR,VALIDADE,DESCR,VALOR,COD) 
+VALUES ("10","kg", "Massa de pastel", "Massa da feira", "2022-11-01", "2022-12-01", "Massa de pastel pré pronta", "R$8", "001100");
+
+
+INSERT INTO PRODUTO_1VALOR (QUANT,UNID,NOME,FORN,DT_ENTR,VALIDADE,DESCR,VALOR,COD) 
+VALUES ("2","kg", "Mussarela", "Confiança", "2022-11-01", "2022-12-31", "Mussarela sadia", "R$34,90", "001101");
+
+
+INSERT INTO PRODUTO_1VALOR (QUANT,UNID,NOME,FORN,DT_ENTR,VALIDADE,DESCR,VALOR,COD) 
+VALUES ("5","kg", "Presunto", "Confiança", "2022-11-01", "2023-01-01", "Presunto defumado seara", "R$24,96", "001102");
+
+
+INSERT INTO PRODUTO_1VALOR (QUANT,UNID,NOME,FORN,DT_ENTR,VALIDADE,DESCR,VALOR,COD) 
+VALUES ("4", "kg","Carne moída", "Confiança", "2022-11-01", "2022-11-07", "Carne moída fresca", "R$198,96", "001103");
+
+
+INSERT INTO PRODUTO_1VALOR (QUANT,UNID,NOME,FORN,DT_ENTR,VALIDADE,DESCR,VALOR,COD) 
+VALUES ("4", "kg","Tomate", "Confiança", "2022-11-01", "2022-11-07", "Tomate italiano fresco", "R$68,90", "001104");
+
+
+INSERT INTO PRODUTO_1VALOR (QUANT,UNID,NOME,FORN,DT_ENTR,VALIDADE,DESCR,VALOR,COD) 
+VALUES ("1", "kg","Oregano", "Casa do Norte", "2022-11-01", "2023-07-07", "Oregano", "R$15,60", "001105");
+
+
+INSERT INTO PRODUTO_1VALOR (QUANT,UNID,NOME,FORN,DT_ENTR,VALIDADE,DESCR,VALOR,COD) 
+VALUES ("2", "kg","Alho", "Casa do Norte", "2022-11-01", "2022-12-01", "Tempero alho moído", "R$30,00", "001106");
+
+
+INSERT INTO PRODUTO_1VALOR (QUANT,UNID,NOME,FORN,DT_ENTR,VALIDADE,DESCR,VALOR,COD) 
+VALUES ("1", "kg","Chocolate", "Casa do biscoito", "2022-11-01", "2023-11-30", "Chocolate blend", "R$78,96", "001107");
+
+
+INSERT INTO PRODUTO_1VALOR (QUANT,UNID,NOME,FORN,DT_ENTR,VALIDADE,DESCR,VALOR,COD) 
+VALUES ("1", "kg","Paçoca", "Casa do biscoito", "2022-08-01", "2022-12-07", "Paçoca caseira", "R$38,96", "001108");
+
+
+INSERT INTO PRODUTO_1VALOR (QUANT,UNID,NOME,FORN,DT_ENTR,VALIDADE,DESCR,VALOR,COD) 
+VALUES ("1", "kg","Leite condensado", "Casa do biscoito", "2022-03-01", "2022-12-07", "Leite condensado integral moça", "R$78,96", "001109");
+
+
+INSERT INTO PRODUTO_1VALOR (QUANT,UNID,NOME,FORN,DT_ENTR,VALIDADE,DESCR,VALOR,COD) 
+VALUES ("1", "kg","Creme de leite", "Casa do biscoito", "2022-06-01", "2022-12-07", "Creme de leite integral nestlé", "R$38,96", "001110");
+
+
+
+Fornecedor
+INSERT INTO fornecedor (NOME,TELEFONE,CNPJ,ENDERECO,PRODUTO,ID) 
+VALUES ("Massa da feira", "(14)98800-1111","69534688000196", "Rua São Francisco 112", "Massa de pastel", "01");
+
+INSERT INTO fornecedor (NOME,TELEFONE,CNPJ,ENDERECO,PRODUTO,ID) 
+VALUES ("Confiança", "(14)98801-1111","69534488000198", "Rua São Manuel 152", "Produtos alimentícios em geral", "02");
+
+
+INSERT INTO fornecedor (NOME,TELEFONE,CNPJ,ENDERECO,PRODUTO,ID) 
+VALUES ("Casa do Norte", "(14)99801-1711","99544488000198", "Rua São Alemão 552", "Produtos alimentícios em geral", "03");
+
+
+INSERT INTO fornecedor (NOME,TELEFONE,CNPJ,ENDERECO,PRODUTO,ID) 
+VALUES ("Casa do biscoito", "(14)99881-1711","99544489000198", "Rua São Jesus 552", "Produtos alimentícios em geral", "04");
+
+
+INSERT INTO fornecedor (NOME,TELEFONE,CNPJ,ENDERECO,PRODUTO,ID) 
+VALUES ("Barracão", "(14)99881-1711","99544489000198", "Rua São Jesus 552", "Produtos alimentícios em geral", "05");
+
+
+INSERT INTO fornecedor (NOME,TELEFONE,CNPJ,ENDERECO,PRODUTO,ID) 
+VALUES ("Atacadão", "(14)99581-1711","99544689000198", "Rua São Jesus 552", "Produtos alimentícios em geral", "06");
+
+
+INSERT INTO fornecedor (NOME,TELEFONE,CNPJ,ENDERECO,PRODUTO,ID) 
+VALUES ("Quintada do seu zé", "(14)99781-1711","99544289000198", "Rua São Deus ajuda 552", "Produtos alimentícios em geral", "07");
+
+
+INSERT INTO fornecedor (NOME,TELEFONE,CNPJ,ENDERECO,PRODUTO,ID) 
+VALUES ("Tauste", "(14)99861-1711","99244489000198", "Rua São Jesus entre nós 552", "Produtos alimentícios em geral", "08");
+
+
+INSERT INTO fornecedor (NOME,TELEFONE,CNPJ,ENDERECO,PRODUTO,ID) 
+VALUES ("Friday chicken", "(14)99881-1711","99544189000198", "Rua Santa Mariana Jesus 552", "Produtos alimentícios em geral", "09");
+
+
+INSERT INTO fornecedor (NOME,TELEFONE,CNPJ,ENDERECO,PRODUTO,ID) 
+VALUES ("Tilibra", "(14)99861-1711","99544489000118", "Rua Venancio Cabello 555", "Produtos alimentícios em geral", "10");
