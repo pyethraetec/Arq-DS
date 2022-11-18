@@ -52,5 +52,8 @@ INSERT INTO produto (QUANT,NOME,FORN,DT_ENTR,VALIDADE,DESCR,VALOR,COD) VALUES ("
 INSERT INTO produto (QUANT,NOME,FORN,DT_ENTR,VALIDADE,DESCR,VALOR,COD) VALUES ("1kg", "Leite condensado", "Casa do biscoito", "2022-03-01", "2022-12-07", "Leite condensado integral moça", "R$78,96", "001109");
 INSERT INTO produto (QUANT,NOME,FORN,DT_ENTR,VALIDADE,DESCR,VALOR,COD) VALUES ("1kg", "Creme de leite", "Casa do biscoito", "2022-06-01", "2022-12-07", "Creme de leite integral nestlé", "R$38,96", "001110");
 
+/* */
 delete from produto where cod = 1100;
 select * from produto;
+
+/* */
