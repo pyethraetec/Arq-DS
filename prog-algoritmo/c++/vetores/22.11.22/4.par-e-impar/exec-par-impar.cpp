@@ -6,24 +6,27 @@ using namespace std;
 
 int main() {
 	
-	int bau[10];
+	int numero[10];
 	int par [10];
 	int impar [10];
 
 	cout << "Informe 10 números: "; 
 		
-		//Guardando informação
-		for (int i=0;i<10;i++){
-			cin >> bau[i];
-	
+	//Guardando informação
+	for (int i=0; i<10; i++){
+		cin >> numero[i];
 		//Testando
-		if (bau[i]%2==0){
-			cin >> par [i];
-		}else {
-			cin >> impar [i];
+		if(numero%2==0){
+			par[i] = numero[i];
+		}else{
+			impar[i] = numero[i];
 		}
-		
-		//Imprimindo
-		cout << par [i] << impar [i];
+	}
+	//Imprimindo
+	for (int n =0; n<10; n++){
+		cout << "Os números são: " << par[n] << endl;
+	}
+	for (int n =0; n<10; n++){
+		cout << "Os números são: " << impar[n] << endl;
 	}
 }
