@@ -15,8 +15,9 @@ int main() {
 	//Guardando informação
 	for (int i=0; i<10; i++){
 		cin >> numero[i];
-		//Testando
-		if(numero%2==0){
+		
+	//Testando
+		if(numero[i]%2==0){
 			par[i] = numero[i];
 		}else{
 			impar[i] = numero[i];
@@ -24,9 +25,9 @@ int main() {
 	}
 	//Imprimindo
 	for (int n =0; n<10; n++){
-		cout << "Os números são: " << par[n] << endl;
+		cout << "Os numeros pares sao: " << par[n] << endl;
 	}
 	for (int n =0; n<10; n++){
-		cout << "Os números são: " << impar[n] << endl;
+		cout << "Os numeros impares sao: " << impar[n] << endl;
 	}
 }

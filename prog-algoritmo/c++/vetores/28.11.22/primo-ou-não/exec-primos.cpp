@@ -12,7 +12,7 @@ int main() {
 	cin >> num;
 	
 	//Teste divisão
-	if (num > 1 && num/1 && num/num){
+	if (num > 1 && num%==num && num%num==1){
 		cout << "Esse número é primo";
 	}else {
 		cout << "Esse número não é primo";
